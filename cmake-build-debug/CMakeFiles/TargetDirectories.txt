@@ -1,0 +1,3 @@
+C:/Users/Raoul Kaleba/CLionProjects/MiniECS/cmake-build-debug/CMakeFiles/MiniECS.dir
+C:/Users/Raoul Kaleba/CLionProjects/MiniECS/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Raoul Kaleba/CLionProjects/MiniECS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
