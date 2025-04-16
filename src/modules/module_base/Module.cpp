@@ -4,12 +4,6 @@
 #include "Module.h"
 #include <iostream>
 
-// Constructor and Destructor
-Module::Module()
-{
-    std::cout << "Constructed module\n";
-}
-
 // Update
 void Module::update()
 {

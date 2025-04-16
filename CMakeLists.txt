@@ -7,4 +7,8 @@ add_executable(MiniECS src/main.cpp
         src/modules/module_base/Module.cpp
         src/modules/module_base/Module.h
         src/unit/Unit.cpp
-        src/unit/Unit.h)
+        src/unit/Unit.h
+        src/modules/renderer/RendererModule.cpp
+        src/modules/renderer/RendererModule.h
+        src/modules/transform/TransformModule.cpp
+        src/modules/transform/TransformModule.h)

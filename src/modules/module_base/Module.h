@@ -6,8 +6,7 @@
 
 class Module {
 public:
-    // Constructor and Destructor
-    Module();
+    // Destructor
     virtual ~Module() = default;
 
     // Update

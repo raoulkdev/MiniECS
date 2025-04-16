@@ -1,0 +1,13 @@
+# ninja log v6
+48	2892	7665410074893958	CMakeFiles/MiniECS.dir/src/modules/module_base/Module.cpp.obj	45bbad9085bbeffd
+22	3999	7665410074570549	CMakeFiles/MiniECS.dir/src/main.cpp.obj	18beacef573b389d
+86	4014	7665410075203329	CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.obj	66e9e4f372146a7b
+2895	5086	7665410103298838	CMakeFiles/MiniECS.dir/src/modules/renderer/RendererModule.cpp.obj	1bbdc8ae0ee2e92f
+5087	5619	7665410125222680	MiniECS.exe	448580437023cbb1
+36	2548	7665415026370155	CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj	5dc4d8eddef57bc0
+21	3670	7665415026223288	CMakeFiles/MiniECS.dir/src/main.cpp.obj	18beacef573b389d
+3672	4305	7665415062727516	MiniECS.exe	1d73161d94067427
+17	1811	7665415423412419	CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj	5dc4d8eddef57bc0
+1812	2217	7665415441364462	MiniECS.exe	1d73161d94067427
+16	2428	7665416010398174	CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj	5dc4d8eddef57bc0
+2430	2981	7665416034532211	MiniECS.exe	1d73161d94067427

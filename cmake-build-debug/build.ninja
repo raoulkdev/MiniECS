@@ -67,6 +67,18 @@ build CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.obj: CXX_COMPILER__MiniECS_unscan
   OBJECT_DIR = CMakeFiles\MiniECS.dir
   OBJECT_FILE_DIR = CMakeFiles\MiniECS.dir\src\unit
 
+build CMakeFiles/MiniECS.dir/src/modules/renderer/RendererModule.cpp.obj: CXX_COMPILER__MiniECS_unscanned_Debug C$:/Users/Raoul$ Kaleba/CLionProjects/MiniECS/src/modules/renderer/RendererModule.cpp || cmake_object_order_depends_target_MiniECS
+  DEP_FILE = CMakeFiles\MiniECS.dir\src\modules\renderer\RendererModule.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MiniECS.dir
+  OBJECT_FILE_DIR = CMakeFiles\MiniECS.dir\src\modules\renderer
+
+build CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj: CXX_COMPILER__MiniECS_unscanned_Debug C$:/Users/Raoul$ Kaleba/CLionProjects/MiniECS/src/modules/transform/TransformModule.cpp || cmake_object_order_depends_target_MiniECS
+  DEP_FILE = CMakeFiles\MiniECS.dir\src\modules\transform\TransformModule.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MiniECS.dir
+  OBJECT_FILE_DIR = CMakeFiles\MiniECS.dir\src\modules\transform
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target MiniECS
@@ -75,7 +87,7 @@ build CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.obj: CXX_COMPILER__MiniECS_unscan
 #############################################
 # Link the executable MiniECS.exe
 
-build MiniECS.exe: CXX_EXECUTABLE_LINKER__MiniECS_Debug CMakeFiles/MiniECS.dir/src/main.cpp.obj CMakeFiles/MiniECS.dir/src/modules/module_base/Module.cpp.obj CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.obj
+build MiniECS.exe: CXX_EXECUTABLE_LINKER__MiniECS_Debug CMakeFiles/MiniECS.dir/src/main.cpp.obj CMakeFiles/MiniECS.dir/src/modules/module_base/Module.cpp.obj CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.obj CMakeFiles/MiniECS.dir/src/modules/renderer/RendererModule.cpp.obj CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MiniECS.dir
