@@ -9,11 +9,15 @@
 
 class TransformModule : public Module{
 private:
+    // Transform values
     int x;
     int y;
     int z;
 public:
+    // Constructor
     TransformModule(int startX, int startY, int startZ);
+
+    // Transform update
     void update() override;
 };
 

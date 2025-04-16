@@ -9,7 +9,10 @@
 
 class RendererModule : public Module{
 public:
+    // Constructor
     RendererModule();
+
+    // Renderer update
     void update() override;
 
 };

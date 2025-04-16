@@ -12,17 +12,21 @@
 
 class Unit {
 private:
+    // Unit name
     std::string name;
+    // Unit Modules
     std::vector<std::unique_ptr<Module>> modules;
 public:
-    // Constructor and Destructor
+    // Constructor
     Unit(std::string newName);
+
+    // Destructor
     ~Unit();
 
-    // Add & Remove Modules
+    // Add Module
     void addModule(std::unique_ptr<Module> module);
 
-    // Call All Module Updates
+    // Call all Module update functions
     void callModuleUpdate();
 };
 

@@ -6,10 +6,10 @@
 
 class Module {
 public:
-    // Destructor
+    // Destructor for all derived classes
     virtual ~Module() = default;
 
-    // Update
+    // Default module update
     virtual void update();
 };
 
