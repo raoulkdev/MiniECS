@@ -7,20 +7,12 @@
    <img src="https://img.shields.io/github/contributors/raoulkdev/MiniECS?style=flat&logo=github" />
 </p>
 
-## Terminology Context
-MiniECS is an ECS-inspired framework, where the terminology has been customized to Unit Module System (UMS).
-
-In this system:
-- **Unit** = Entity
-- **Module** = Component
-
 ## Table of Contents
 
-- [Overview](#overview)  
+- [Overview](#overview) 
 - [Getting Started](#getting-started)  
 - [Installation](#installation)  
 - [Usage](#usage)  
-- [Testing](#testing)
 
 ## Overview
 
