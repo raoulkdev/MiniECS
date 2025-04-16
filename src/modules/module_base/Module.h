@@ -4,23 +4,14 @@
 #ifndef MODULE_H
 #define MODULE_H
 
-// Imports
-#include <memory>
-
-#include "../../unit/Unit.h"
-
 class Module {
-    Unit* owner;
 public:
     // Constructor and Destructor
-    Module(Unit &newOwner);
-    ~Module();
+    Module();
+    virtual ~Module() = default;
 
     // Update
-    void update();
-
+    virtual void update();
 };
-
-
 
 #endif //MODULE_H

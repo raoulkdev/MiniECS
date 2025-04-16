@@ -1,7 +1,6 @@
 //
 // Created by Raoul Kaleba on 4/15/2025.
 //
-
 #include "Unit.h"
 #include "../modules/module_base/Module.h"
 
@@ -18,16 +17,16 @@ Unit::~Unit()
 }
 
 // Add Module
-void Unit::addModule(Module* module)
+void Unit::addModule(std::unique_ptr<Module> module)
 {
-    modules->push_back(module);
+    modules.push_back(std::move(module));
 }
 
 // Call All Module Updates
 void Unit::callModuleUpdate()
 {
-    for (Module module : modules)
+    for (const std::unique_ptr<Module> &module : modules)
     {
-        module.update();
+        module->update();
     }
 }

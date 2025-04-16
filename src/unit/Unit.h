@@ -7,26 +7,23 @@
 // Imports
 #include <iostream>
 #include <vector>
-
+#include <memory>
 #include "../modules/module_base/Module.h"
-
 
 class Unit {
 private:
     std::string name;
-    std::unique_ptr<std::vector<Module>> modules;
+    std::vector<std::unique_ptr<Module>> modules;
 public:
     // Constructor and Destructor
     Unit(std::string newName);
     ~Unit();
 
     // Add & Remove Modules
-    void addModule(Module* module);
+    void addModule(std::unique_ptr<Module> module);
 
     // Call All Module Updates
     void callModuleUpdate();
 };
-
-
 
 #endif //UNIT_H
