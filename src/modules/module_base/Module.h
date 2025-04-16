@@ -16,6 +16,9 @@ public:
     Module(Unit &newOwner);
     ~Module();
 
+    // Update
+    void update();
+
 };
 
 

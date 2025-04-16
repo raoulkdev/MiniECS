@@ -3,6 +3,7 @@
 //
 
 #include "Unit.h"
+#include "../modules/module_base/Module.h"
 
 // Constructor and Destructor
 Unit::Unit(std::string newName)
@@ -19,5 +20,14 @@ Unit::~Unit()
 // Add Module
 void Unit::addModule(Module* module)
 {
-    modules->push_back(modules);
+    modules->push_back(module);
+}
+
+// Call All Module Updates
+void Unit::callModuleUpdate()
+{
+    for (Module module : modules)
+    {
+        module.update();
+    }
 }

@@ -11,4 +11,12 @@ Module::Module(Unit &newOwner)
 
 Module::~Module()
 {
+    std::cout << "Destructed module, owner: " << owner;
 }
+
+// Update
+void Module::update()
+{
+    std::cout << "Update module, owner: " << owner << "\n";
+}
+

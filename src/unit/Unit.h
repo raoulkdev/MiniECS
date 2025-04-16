@@ -22,6 +22,9 @@ public:
 
     // Add & Remove Modules
     void addModule(Module* module);
+
+    // Call All Module Updates
+    void callModuleUpdate();
 };
 
 
