@@ -17,12 +17,11 @@ private:
     std::unique_ptr<std::vector<Module>> modules;
 public:
     // Constructor and Destructor
-    Unit(std::string newName, std::unique_ptr<Module>);
+    Unit(std::string newName);
     ~Unit();
 
     // Add & Remove Modules
-    void addModule(std::unique_ptr<Module>);
-    void removeModule(std::unique_ptr<Module>);
+    void addModule(Module* module);
 };
 
 

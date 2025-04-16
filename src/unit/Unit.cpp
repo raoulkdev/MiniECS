@@ -5,20 +5,19 @@
 #include "Unit.h"
 
 // Constructor and Destructor
-Unit::Unit(std::string newName, std::unique_ptr<Module>)
+Unit::Unit(std::string newName)
 {
+    name = std::move(newName);
+    std::cout << "Constructed unit, name: " << name << "\n";
 }
 
 Unit::~Unit()
 {
+    std::cout << "Destructed unit, name: " << name << "\n";
 }
 
 // Add Module
-void Unit::addModule(std::unique_ptr<Module>)
+void Unit::addModule(Module* module)
 {
-}
-
-// Remove Module
-void Unit::removeModule(std::unique_ptr<Module>)
-{
+    modules->push_back(modules);
 }
