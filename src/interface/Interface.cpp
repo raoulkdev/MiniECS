@@ -26,6 +26,7 @@ void Interface::displayCommands() const
     << " add_module -> Add a Module to a specific Unit by name\n"
     << " remove_module -> Remove a Module from a specific Unit by name\n"
     << " play -> Run all Units' modules' start functions\n"
+    << " help -> Display all commands\n"
     << " exit -> Exit MiniECS\n";
 }
 
@@ -144,7 +145,7 @@ void Interface::play()
 void Interface::handleInput()
 {
     std::string command;
-    std::cout << "MiniECS/v0.11> ";
+    std::cout << "\n MiniECS/v0.11> ";
     std::getline(std::cin, command);
 
     if (command == "create_unit") {
@@ -159,6 +160,9 @@ void Interface::handleInput()
     }
     else if (command == "play") {
         play();
+    }
+    else if (command == "help") {
+        displayCommands();
     }
     else if (command == "exit") {
         std::cout << "Exiting MiniECS v0.11\n";
