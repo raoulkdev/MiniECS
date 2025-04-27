@@ -26,8 +26,14 @@ public:
     // Add Module
     void addModule(std::unique_ptr<Module> module);
 
-    // Call all Module update functions
-    void callModuleUpdate();
+    // Get Name
+    std::string getName();
+
+    // Get Modules Vector
+    std::vector<std::unique_ptr<Module>>& getModulesVector();
+
+    // Call all Module start functions
+    void callModuleStart();
 };
 
 #endif //UNIT_H

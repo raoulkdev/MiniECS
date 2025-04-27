@@ -1,13 +1,15 @@
 # ninja log v6
-48	2892	7665410074893958	CMakeFiles/MiniECS.dir/src/modules/module_base/Module.cpp.obj	45bbad9085bbeffd
-22	3999	7665410074570549	CMakeFiles/MiniECS.dir/src/main.cpp.obj	18beacef573b389d
-86	4014	7665410075203329	CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.obj	66e9e4f372146a7b
-2895	5086	7665410103298838	CMakeFiles/MiniECS.dir/src/modules/renderer/RendererModule.cpp.obj	1bbdc8ae0ee2e92f
-5087	5619	7665410125222680	MiniECS.exe	448580437023cbb1
-36	2548	7665415026370155	CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj	5dc4d8eddef57bc0
-21	3670	7665415026223288	CMakeFiles/MiniECS.dir/src/main.cpp.obj	18beacef573b389d
-3672	4305	7665415062727516	MiniECS.exe	1d73161d94067427
-17	1811	7665415423412419	CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj	5dc4d8eddef57bc0
-1812	2217	7665415441364462	MiniECS.exe	1d73161d94067427
-16	2428	7665416010398174	CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj	5dc4d8eddef57bc0
-2430	2981	7665416034532211	MiniECS.exe	1d73161d94067427
+93	5899	7674786957098364	CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj	5dc4d8eddef57bc0
+105	4504	7674785885221383	CMakeFiles/MiniECS.dir/src/modules/module_base/Module.cpp.obj	45bbad9085bbeffd
+65	5780	7674785884838752	CMakeFiles/MiniECS.dir/src/main.cpp.obj	18beacef573b389d
+55	5817	7674786956728423	CMakeFiles/MiniECS.dir/src/modules/renderer/RendererModule.cpp.obj	1bbdc8ae0ee2e92f
+128	6371	7674785885448768	CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.obj	66e9e4f372146a7b
+8711	9975	7674787043284867	MiniECS.exe	c21a9473a1875384
+118	8711	7674786957348842	CMakeFiles/MiniECS.dir/src/interface/Interface.cpp.obj	4327dca8f2bce291
+199	7428	7674811168734285	CMakeFiles/MiniECS.dir/src/modules/module_base/Module.cpp.obj	45bbad9085bbeffd
+141	9629	7674811168254253	CMakeFiles/MiniECS.dir/src/main.cpp.obj	18beacef573b389d
+358	9725	7674811170324304	CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.obj	66e9e4f372146a7b
+7432	12786	7674811241059961	CMakeFiles/MiniECS.dir/src/modules/renderer/RendererModule.cpp.obj	1bbdc8ae0ee2e92f
+9629	14117	7674811263024328	CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj	5dc4d8eddef57bc0
+9726	17498	7674811263994299	CMakeFiles/MiniECS.dir/src/interface/Interface.cpp.obj	4327dca8f2bce291
+17499	18742	7674811341723785	MiniECS.exe	c21a9473a1875384

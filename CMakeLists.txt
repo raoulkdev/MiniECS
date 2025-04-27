@@ -11,4 +11,6 @@ add_executable(MiniECS src/main.cpp
         src/modules/renderer/RendererModule.cpp
         src/modules/renderer/RendererModule.h
         src/modules/transform/TransformModule.cpp
-        src/modules/transform/TransformModule.h)
+        src/modules/transform/TransformModule.h
+        src/interface/Interface.cpp
+        src/interface/Interface.h)

@@ -1,0 +1,37 @@
+//
+// Created by Raoul Kaleba on 4/18/2025.
+//
+#ifndef INTERFACE_H
+#define INTERFACE_H
+
+// Imports
+#include <vector>
+#include <memory>
+#include "../unit/Unit.h"
+
+class Interface {
+private:
+    std::vector<std::unique_ptr<Unit>>& sceneUnits;
+public:
+    // Constructor
+    Interface(std::vector<std::unique_ptr<Unit>>& initSceneUnits);
+
+    // Destructor
+    ~Interface() = default;
+
+    // Interface functions
+    void introduction() const;
+    void displayCommands() const;
+
+    // Unit Functions
+    void createUnit();
+    void addModule();
+    void removeModule();
+    void play();
+
+    void handleInput();
+};
+
+
+
+#endif //INTERFACE_H

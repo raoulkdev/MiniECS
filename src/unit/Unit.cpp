@@ -25,11 +25,21 @@ void Unit::addModule(std::unique_ptr<Module> module)
     modules.push_back(std::move(module));
 }
 
-// Call all Module update functions
-void Unit::callModuleUpdate()
+std::string Unit::getName()
+{
+    return name;
+}
+
+std::vector<std::unique_ptr<Module>>& Unit::getModulesVector()
+{
+    return modules;
+}
+
+// Call all Module start functions
+void Unit::callModuleStart()
 {
     for (const std::unique_ptr<Module> &module : modules)
     {
-        module->update();
+        module->start();
     }
 }

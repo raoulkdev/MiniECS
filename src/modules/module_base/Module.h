@@ -4,13 +4,24 @@
 #ifndef MODULE_H
 #define MODULE_H
 
+// Imports
+#include <string>
+
 class Module {
 public:
-    // Destructor for all derived classes
-    virtual ~Module() = default;
+    // Constructor & Destructor
+    Module(const std::string& type);
+    virtual ~Module();
+
+    // Get id
+    int getId();
 
     // Default module update
-    virtual void update();
+    virtual void start();
+
+private:
+    std::string moduleType;
+    static int moduleId;
 };
 
 #endif //MODULE_H

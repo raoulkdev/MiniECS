@@ -79,6 +79,12 @@ build CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj: CXX_
   OBJECT_DIR = CMakeFiles\MiniECS.dir
   OBJECT_FILE_DIR = CMakeFiles\MiniECS.dir\src\modules\transform
 
+build CMakeFiles/MiniECS.dir/src/interface/Interface.cpp.obj: CXX_COMPILER__MiniECS_unscanned_Debug C$:/Users/Raoul$ Kaleba/CLionProjects/MiniECS/src/interface/Interface.cpp || cmake_object_order_depends_target_MiniECS
+  DEP_FILE = CMakeFiles\MiniECS.dir\src\interface\Interface.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MiniECS.dir
+  OBJECT_FILE_DIR = CMakeFiles\MiniECS.dir\src\interface
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target MiniECS
@@ -87,7 +93,7 @@ build CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj: CXX_
 #############################################
 # Link the executable MiniECS.exe
 
-build MiniECS.exe: CXX_EXECUTABLE_LINKER__MiniECS_Debug CMakeFiles/MiniECS.dir/src/main.cpp.obj CMakeFiles/MiniECS.dir/src/modules/module_base/Module.cpp.obj CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.obj CMakeFiles/MiniECS.dir/src/modules/renderer/RendererModule.cpp.obj CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj
+build MiniECS.exe: CXX_EXECUTABLE_LINKER__MiniECS_Debug CMakeFiles/MiniECS.dir/src/main.cpp.obj CMakeFiles/MiniECS.dir/src/modules/module_base/Module.cpp.obj CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.obj CMakeFiles/MiniECS.dir/src/modules/renderer/RendererModule.cpp.obj CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.obj CMakeFiles/MiniECS.dir/src/interface/Interface.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MiniECS.dir
