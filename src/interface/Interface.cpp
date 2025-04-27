@@ -145,7 +145,7 @@ void Interface::play()
 void Interface::handleInput()
 {
     std::string command;
-    std::cout << "\n MiniECS/v0.11> ";
+    std::cout << "\nMiniECS/v0.11> ";
     std::getline(std::cin, command);
 
     if (command == "create_unit") {
