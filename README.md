@@ -1,5 +1,5 @@
 # MiniECS (Mini Entity Component System)
-https://medium.com/@nkumba/building-a-lightweight-ecs-1-units-modules-0d66c764e263
+[My article on starting this](https://medium.com/@nkumba/building-a-lightweight-ecs-1-units-modules-0d66c764e263) 
 
 <p align="left">
   <img src="https://img.shields.io/github/last-commit/raoulkdev/MiniECS?style=flat&logo=git" />
