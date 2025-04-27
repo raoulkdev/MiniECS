@@ -11,15 +11,15 @@
 #include "../modules/transform/TransformModule.h"
 #include <limits>
 
-Interface::Interface(std::vector<std::unique_ptr<Unit>>& initSceneUnits)
+MiniECSInterface::Interface::Interface(std::vector<std::unique_ptr<MiniECS::Unit>>& initSceneUnits)
     : sceneUnits(initSceneUnits) {}
 
-void Interface::introduction() const
+void MiniECSInterface::Interface::introduction() const
 {
     std::cout << "Welcome to MiniECS v0.11 by Raoul Kaleba\n";
 }
 
-void Interface::displayCommands() const
+void MiniECSInterface::Interface::displayCommands() const
 {
     std::cout << "Your available commands are:\n"
     << " create_unit -> Create a new Unit with a name\n"
@@ -30,16 +30,16 @@ void Interface::displayCommands() const
     << " exit -> Exit MiniECS\n";
 }
 
-void Interface::createUnit()
+void MiniECSInterface::Interface::createUnit()
 {
     std::string newUnitName;
     std::cout << "New Unit Name: ";
     std::getline(std::cin, newUnitName);
-    std::unique_ptr<Unit> newUnit = std::make_unique<Unit>(newUnitName);
+    std::unique_ptr<MiniECS::Unit> newUnit = std::make_unique<MiniECS::Unit>(newUnitName);
     sceneUnits.push_back(std::move(newUnit));
 }
 
-void Interface::addModule()
+void MiniECSInterface::Interface::addModule()
 {
     bool found;
     std::string unitName;
@@ -57,11 +57,11 @@ void Interface::addModule()
             switch (moduleType)
             {
             case 1:
-                unit->addModule(std::make_unique<RendererModule>("Renderer"));
+                unit->addModule(std::make_unique<MiniECS::RendererModule>("Renderer"));
                 std::cin.ignore();
                 break;;
             case 2:
-                unit->addModule(std::make_unique<TransformModule>("Transform"));
+                unit->addModule(std::make_unique<MiniECS::TransformModule>("Transform"));
                 std::cin.ignore();
                 break;
             default:
@@ -79,7 +79,7 @@ void Interface::addModule()
 
 }
 
-void Interface::removeModule()
+void MiniECSInterface::Interface::removeModule()
 {
     bool unitFound = false;
     bool moduleFound = false;
@@ -100,7 +100,7 @@ void Interface::removeModule()
             moduleStartFind = true;
             for (auto& module : unit->getModulesVector())
             {
-                std::vector<std::unique_ptr<Module>>& modulesVec = unit->getModulesVector();
+                std::vector<std::unique_ptr<MiniECS::Module>>& modulesVec = unit->getModulesVector();
                 if (module->getId() == moduleID)
                 {
                     moduleFound = true;
@@ -120,7 +120,7 @@ void Interface::removeModule()
 
 }
 
-void Interface::play()
+void MiniECSInterface::Interface::play()
 {
     if (!sceneUnits.empty())
     {
@@ -142,7 +142,7 @@ void Interface::play()
     }
 }
 
-void Interface::handleInput()
+void MiniECSInterface::Interface::handleInput()
 {
     std::string command;
     std::cout << "\nMiniECS/v0.11> ";

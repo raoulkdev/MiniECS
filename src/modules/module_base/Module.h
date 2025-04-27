@@ -7,21 +7,25 @@
 // Imports
 #include <string>
 
-class Module {
-public:
-    // Constructor & Destructor
-    Module(const std::string& type);
-    virtual ~Module();
+namespace MiniECS
+{
+    class Module {
+    public:
+        // Constructor & Destructor
+        Module(const std::string& type);
+        virtual ~Module();
 
-    // Get id
-    int getId();
+        // Get id
+        int getId();
 
-    // Default module update
-    virtual void start();
+        // Default module update
+        virtual void start();
 
-private:
-    std::string moduleType;
-    static int moduleId;
-};
+    private:
+        std::string moduleType;
+        static int moduleId;
+    };
+
+}
 
 #endif //MODULE_H

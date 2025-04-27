@@ -11,10 +11,10 @@
 int main()
 {
     // Scene Units
-    std::vector<std::unique_ptr<Unit>> units;
+    std::vector<std::unique_ptr<MiniECS::Unit>> units;
 
     // Interface
-    std::unique_ptr<Interface> interface = std::make_unique<Interface>(units);
+    std::unique_ptr<MiniECSInterface::Interface> interface = std::make_unique<MiniECSInterface::Interface>(units);
     interface->introduction();
     interface->displayCommands();
 
