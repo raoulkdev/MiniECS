@@ -7,39 +7,39 @@
 #include "../modules/module_base/Module.h"
 
 // Constructor
-Unit::Unit(std::string newName)
+MiniECS::Unit::Unit(std::string newName)
 {
     name = std::move(newName);
     std::cout << "Constructed unit, name: " << name << "\n";
 }
 
 // Destructor
-Unit::~Unit()
+MiniECS::Unit::~Unit()
 {
     std::cout << "Destructed unit, name: " << name << "\n";
 }
 
 // Add Module
-void Unit::addModule(std::unique_ptr<Module> module)
+void MiniECS::Unit::addModule(std::unique_ptr<Module> moduleToAdd)
 {
-    modules.push_back(std::move(module));
+    modules.push_back(std::move(moduleToAdd));
 }
 
-std::string Unit::getName()
+std::string MiniECS::Unit::getName() const
 {
     return name;
 }
 
-std::vector<std::unique_ptr<Module>>& Unit::getModulesVector()
+std::vector<std::unique_ptr<MiniECS::Module>>& MiniECS::Unit::getModulesVector()
 {
     return modules;
 }
 
 // Call all Module start functions
-void Unit::callModuleStart()
+void MiniECS::Unit::callModuleStart() const
 {
-    for (const std::unique_ptr<Module> &module : modules)
+    for (const std::unique_ptr<Module> &sModule : modules)
     {
-        module->start();
+        sModule->start();
     }
 }

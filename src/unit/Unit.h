@@ -20,22 +20,22 @@ namespace MiniECS
         std::vector<std::unique_ptr<Module>> modules;
     public:
         // Constructor
-        Unit(std::string newName);
+        explicit Unit(std::string newName);
 
         // Destructor
         ~Unit();
 
         // Add Module
-        void addModule(std::unique_ptr<Module> module);
+        void addModule(std::unique_ptr<Module> moduleToAdd);
 
         // Get Name
-        std::string getName();
+        std::string getName() const;
 
         // Get Modules Vector
         std::vector<std::unique_ptr<Module>>& getModulesVector();
 
         // Call all Module start functions
-        void callModuleStart();
+        void callModuleStart() const;
     };
 }
 

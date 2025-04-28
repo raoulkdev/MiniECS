@@ -6,29 +6,29 @@
 #include "Module.h"
 #include <iostream>
 
-int Module::moduleId = 0;
+int MiniECS::Module::moduleId = 0;
 
-Module::Module(const std::string& type)
+MiniECS::Module::Module(const std::string& type)
 {
     moduleType = type;
     moduleId++;
     std::cout << "Added " << moduleType << ", Module ID: " << moduleId << "\n";
 }
 
-Module::~Module()
+MiniECS::Module::~Module()
 {
     // Add remove module function
     std::cout << "Removed " << moduleType << ", ID: " << moduleId << "\n";
 }
 
-int Module::getId()
+int MiniECS::Module::getId()
 {
     return moduleId;
 }
 
 
 // Default module update
-void Module::start()
+void MiniECS::Module::start()
 {
     std::cout << "Start / Start module\n";
 }

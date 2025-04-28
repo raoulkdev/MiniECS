@@ -14,7 +14,7 @@ int main()
     std::vector<std::unique_ptr<MiniECS::Unit>> units;
 
     // Interface
-    std::unique_ptr<MiniECSInterface::Interface> interface = std::make_unique<MiniECSInterface::Interface>(units);
+    std::unique_ptr<auto> interface = std::make_unique<MiniECSInterface::Interface>(units);
     interface->introduction();
     interface->displayCommands();
 

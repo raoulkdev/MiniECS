@@ -7,7 +7,7 @@
 #include <iostream>
 
 // Renderer start
-void RendererModule::start()
+void MiniECS::RendererModule::start()
 {
     std::cout << "Start / Started rendering...\n";
 }

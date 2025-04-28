@@ -79,7 +79,7 @@ void MiniECSInterface::Interface::addModule()
 
 }
 
-void MiniECSInterface::Interface::removeModule()
+void MiniECSInterface::Interface::removeModule() const
 {
     bool unitFound = false;
     bool moduleFound = false;
@@ -120,7 +120,7 @@ void MiniECSInterface::Interface::removeModule()
 
 }
 
-void MiniECSInterface::Interface::play()
+void MiniECSInterface::Interface::play() const
 {
     if (!sceneUnits.empty())
     {
@@ -166,7 +166,7 @@ void MiniECSInterface::Interface::handleInput()
     }
     else if (command == "exit") {
         std::cout << "Exiting MiniECS v0.11\n";
-        return exit(0);
+        exit(0);
     }
     else {
         std::cout << "Unknown command\n";

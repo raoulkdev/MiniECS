@@ -16,7 +16,7 @@ namespace MiniECSInterface
         std::vector<std::unique_ptr<MiniECS::Unit>>& sceneUnits;
     public:
         // Constructor
-        Interface(std::vector<std::unique_ptr<MiniECS::Unit>>& initSceneUnits);
+        explicit Interface(std::vector<std::unique_ptr<MiniECS::Unit>>& initSceneUnits);
 
         // Destructor
         ~Interface() = default;
@@ -28,8 +28,8 @@ namespace MiniECSInterface
         // Unit Functions
         void createUnit();
         void addModule();
-        void removeModule();
-        void play();
+        void removeModule() const;
+        void play() const;
 
         void handleInput();
     };
