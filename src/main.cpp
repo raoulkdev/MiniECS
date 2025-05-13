@@ -11,14 +11,8 @@
 int main()
 {
     // World
-    std::unique_ptr<MiniECS::World> interface = std::make_unique<MiniECS::World>();
-    interface->introduction();
-    interface->displayCommands();
-
-    while (true)
-    {
-        interface->handleInput();
-    }
-
-
+    std::unique_ptr<MiniECS::World> scene = std::make_unique<MiniECS::World>();
+    scene->createUnit("u1");
+    scene->addModule("u1", 1);
+    scene->play();
 }

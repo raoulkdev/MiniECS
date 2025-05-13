@@ -22,15 +22,10 @@ namespace MiniECS
         // Destructor
         ~World() = default;
 
-        // CLI functions
-        void introduction() const;
-        void displayCommands() const;
-        void handleInput();
-
         // Unit Functions
-        void createUnit();
-        void addModule();
-        void removeModule() const;
+        void createUnit(std::string newUnitName);
+        void addModule(std::string unitName, int moduleType);
+        void removeModule(std::string unitName, int moduleID) const;
 
         // Game loop/lifetime functions
         void play() const;
