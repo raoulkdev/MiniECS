@@ -10,8 +10,11 @@
 #include "../modules/renderer/RendererModule.h"
 #include "../modules/transform/TransformModule.h"
 
-MiniECS::World::World(std::vector<std::unique_ptr<MiniECS::Unit>>& initSceneUnits)
-    : worldUnits(initSceneUnits) {}
+MiniECS::World::World()
+{
+    std::cout << "Created world\n";
+}
+
 
 void MiniECS::World::introduction() const
 {

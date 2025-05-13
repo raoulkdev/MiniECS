@@ -14,10 +14,10 @@ namespace MiniECS
 {
     class World {
     private:
-        std::vector<std::unique_ptr<MiniECS::Unit>>& worldUnits;
+        std::vector<std::unique_ptr<MiniECS::Unit>> worldUnits;
     public:
         // Constructor
-        explicit World(std::vector<std::unique_ptr<MiniECS::Unit>>& initSceneUnits);
+        explicit World();
 
         // Destructor
         ~World() = default;

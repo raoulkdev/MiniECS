@@ -10,11 +10,8 @@
 // Example use
 int main()
 {
-    // Scene Units
-    std::vector<std::unique_ptr<MiniECS::Unit>> units;
-
     // World
-    std::unique_ptr<MiniECS::World> interface = std::make_unique<MiniECS::World>(units);
+    std::unique_ptr<MiniECS::World> interface = std::make_unique<MiniECS::World>();
     interface->introduction();
     interface->displayCommands();
 
