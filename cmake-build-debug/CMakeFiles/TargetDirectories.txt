@@ -1,3 +1,3 @@
-C:/Users/Raoul Kaleba/CLionProjects/MiniECS/cmake-build-debug/CMakeFiles/MiniECS.dir
-C:/Users/Raoul Kaleba/CLionProjects/MiniECS/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Raoul Kaleba/CLionProjects/MiniECS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/raoulkaleba/Documents/CLionProjects/MiniECS/cmake-build-debug/CMakeFiles/MiniECS.dir
+/Users/raoulkaleba/Documents/CLionProjects/MiniECS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/raoulkaleba/Documents/CLionProjects/MiniECS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
