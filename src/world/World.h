@@ -14,18 +14,31 @@ namespace MiniECS
 {
     class World {
     private:
-        std::vector<std::unique_ptr<MiniECS::Unit>> worldUnits;
+        std::vector<std::unique_ptr<Unit>> worldUnits;
+        std::string worldName;
     public:
         // Constructor
-        explicit World();
+        explicit World(std::string initName);
 
         // Destructor
         ~World() = default;
 
         // Unit Functions
         void createUnit(std::string newUnitName);
-        void addModule(std::string unitName, ModuleType moduleType);
-        void removeModule(std::string unitName, int moduleID) const;
+        void removeUnitByName(std::string unitName);
+        void removeUnitByIndex(int index);
+        std::unique_ptr<Unit>& getUnitByName(std::string name);
+        std::unique_ptr<Unit>& getUnitByIndex(int index);
+        const std::vector<std::unique_ptr<Unit>>& getUnitsVector() const;
+
+        // Module functions
+        void addModule(std::unique_ptr<Unit> parentUnit, ModuleType moduleType);
+        void removeModuleByID(std::unique_ptr<Unit> parentUnit, int moduleID) const;
+        void removeModuleByIndex(std::unique_ptr<Unit> parentUnit, int index);
+        std::unique_ptr<Module>& getModuleByID(std::unique_ptr<Unit> parentUnit, int moduleID) const;
+        std::unique_ptr<Module>& getModuleByIndex(std::unique_ptr<Unit> parentUnit, int index) const;
+        std::unique_ptr<Module>& getModuleByID(std::unique_ptr<Unit> parentUnit, int moduleID);
+
 
         // Game loop/lifetime functions
         void play() const;

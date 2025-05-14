@@ -29,7 +29,6 @@ namespace MiniECS
         virtual void start();
 
     private:
-        // TODO: Use an enum for type
         ModuleType type;
         std::string moduleTypeName;
         static int moduleId;
