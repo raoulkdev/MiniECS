@@ -33,7 +33,7 @@ namespace MiniECS
 
         // Module functions
         void addModule(std::unique_ptr<Unit>& parentUnit, ModuleType moduleType);
-        void removeModule(std::unique_ptr<Unit> parentUnit, ModuleType moduleType);
+        void removeModule(std::unique_ptr<Unit>& parentUnit, ModuleType moduleType);
 
         // Game loop/lifetime functions
         void play() const;

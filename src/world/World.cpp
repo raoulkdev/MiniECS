@@ -60,7 +60,7 @@ std::unique_ptr<MiniECS::Unit>& MiniECS::World::getUnitByIndex(int index)
 
 std::unique_ptr<MiniECS::Unit>& MiniECS::World::getUnitByName(std::string name)
 {
-    bool unitFound = false;
+    bool unitFound = true;
     for (std::unique_ptr<Unit>& unit : worldUnits)
     {
         if (unit->getName() == name)
@@ -107,7 +107,7 @@ void MiniECS::World::addModule(std::unique_ptr<Unit>& parentUnit, ModuleType mod
 
 }
 
-void MiniECS::World::removeModule(std::unique_ptr<Unit> parentUnit, ModuleType moduleType)
+void MiniECS::World::removeModule(std::unique_ptr<Unit>& parentUnit, ModuleType moduleType)
 {
     bool unitFound = false;
     bool moduleFound = false;
