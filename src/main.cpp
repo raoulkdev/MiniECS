@@ -13,6 +13,6 @@ int main()
     // World
     std::unique_ptr<MiniECS::World> scene = std::make_unique<MiniECS::World>();
     scene->createUnit("u1");
-    scene->addModule("u1", 1);
+    scene->addModule("u1", MiniECS::ModuleType::Renderer);
     scene->play();
 }

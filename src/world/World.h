@@ -24,7 +24,7 @@ namespace MiniECS
 
         // Unit Functions
         void createUnit(std::string newUnitName);
-        void addModule(std::string unitName, int moduleType);
+        void addModule(std::string unitName, ModuleType moduleType);
         void removeModule(std::string unitName, int moduleID) const;
 
         // Game loop/lifetime functions

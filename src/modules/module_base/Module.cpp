@@ -8,17 +8,34 @@
 
 int MiniECS::Module::moduleId = 0;
 
-MiniECS::Module::Module(const std::string& type)
+MiniECS::Module::Module(const ModuleType setType)
 {
-    moduleType = type;
+    type = setType;
+
+    switch (type)
+    {
+        case ModuleType::ModuleBase:
+            moduleTypeName =  "ModuleBase";
+            break;
+        case ModuleType::Transform:
+            moduleTypeName = "Transform";
+            break;
+        case ModuleType::Renderer:
+            moduleTypeName =  "Renderer";
+            break;
+        default:
+            moduleTypeName = "Unknown";
+            break;
+    }
+
     moduleId++;
-    std::cout << "Added " << moduleType << ", Module ID: " << moduleId << "\n";
+    std::cout << "Added " << moduleTypeName << ", Module ID: " << moduleId << "\n";
 }
 
 MiniECS::Module::~Module()
 {
     // Add remove module function
-    std::cout << "Removed " << moduleType << ", ID: " << moduleId << "\n";
+    std::cout << "Removed " << moduleTypeName << ", ID: " << moduleId << "\n";
 }
 
 int MiniECS::Module::getId()

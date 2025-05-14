@@ -9,10 +9,17 @@
 
 namespace MiniECS
 {
+    enum class ModuleType
+    {
+        ModuleBase = 0,
+        Transform = 1,
+        Renderer = 2
+    };
+
     class Module {
     public:
         // Constructor & Destructor
-        Module(const std::string& type);
+        Module(const ModuleType setType);
         virtual ~Module();
 
         // Get id
@@ -23,7 +30,8 @@ namespace MiniECS
 
     private:
         // TODO: Use an enum for type
-        std::string moduleType;
+        ModuleType type;
+        std::string moduleTypeName;
         static int moduleId;
     };
 

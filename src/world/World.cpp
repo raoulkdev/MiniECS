@@ -29,7 +29,7 @@ void MiniECS::World::createUnit(std::string newUnitName)
 }
 
 // TODO: Use an ENUM for module type lookup
-void MiniECS::World::addModule(std::string unitName, int moduleType)
+void MiniECS::World::addModule(std::string unitName, ModuleType moduleType)
 {
     bool found;
 
@@ -40,11 +40,11 @@ void MiniECS::World::addModule(std::string unitName, int moduleType)
             found = true;
             switch (moduleType)
             {
-            case 1:
-                unit->addModule(std::make_unique<RendererModule>("Renderer"));
+                case ModuleType::Renderer:
+                unit->addModule(std::make_unique<RendererModule>(ModuleType::Renderer));
                 break;
-            case 2:
-                unit->addModule(std::make_unique<TransformModule>("Transform"));
+                case ModuleType::Transform:
+                unit->addModule(std::make_unique<TransformModule>(ModuleType::Transform));
                 break;
             default:
                 std::cout << "Invalid Module Type!! \n";
