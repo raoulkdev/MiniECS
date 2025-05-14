@@ -26,7 +26,6 @@ namespace MiniECS
         ~Unit();
 
         // Add Module
-        // TODO: Prevent adding the same type of module
         void addModule(std::unique_ptr<Module> moduleToAdd);
 
         // Get Name

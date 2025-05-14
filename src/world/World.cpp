@@ -60,19 +60,12 @@ std::unique_ptr<MiniECS::Unit>& MiniECS::World::getUnitByIndex(int index)
 
 std::unique_ptr<MiniECS::Unit>& MiniECS::World::getUnitByName(std::string name)
 {
-    bool unitFound = true;
     for (std::unique_ptr<Unit>& unit : worldUnits)
     {
         if (unit->getName() == name)
         {
-            unitFound = true;
             return unit;
         }
-    }
-
-    if (!unitFound)
-    {
-        std::cout << "Could not find unit!\n";
     }
 }
 

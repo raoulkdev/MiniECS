@@ -22,7 +22,19 @@ MiniECS::Unit::~Unit()
 // Add Module
 void MiniECS::Unit::addModule(std::unique_ptr<Module> moduleToAdd)
 {
-    modules.push_back(std::move(moduleToAdd));
+    bool duplicateType = false;
+    for (std::unique_ptr<Module>& module : modules)
+    {
+        if (module->getType() == moduleToAdd->getType())
+        {
+            duplicateType = true;
+            std::cout << "Cannot add: " << module->getTypeName() << "to Unit because it already exsists!\n";
+        }
+    }
+    if (!duplicateType)
+    {
+        modules.push_back(std::move(moduleToAdd));
+    }
 }
 
 std::string MiniECS::Unit::getName() const

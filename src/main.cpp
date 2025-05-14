@@ -15,7 +15,7 @@ int main()
     scene->createUnit("u1");
     scene->addModule(scene->getUnitByName("u1"), MiniECS::ModuleType::Renderer);
     scene->addModule(scene->getUnitByName("u1"), MiniECS::ModuleType::Transform);
-    scene->removeModule(scene->getUnitByName("u1"), MiniECS::ModuleType::Transform);
+    scene->addModule(scene->getUnitByName("u1"), MiniECS::ModuleType::Transform);
+    std::cout << scene->getUnitByName("u1")->getName() << "\n";
     scene->play();
-
 }
