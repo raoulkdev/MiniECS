@@ -22,8 +22,9 @@ namespace MiniECS
         Module(const ModuleType setType);
         virtual ~Module();
 
-        // Get id
-        int getId();
+        // Get type name;
+        std::string getTypeName();
+        ModuleType getType();
 
         // Default module update
         virtual void start();
@@ -31,7 +32,6 @@ namespace MiniECS
     private:
         ModuleType type;
         std::string moduleTypeName;
-        static int moduleId;
     };
 
 }

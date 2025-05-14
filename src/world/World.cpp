@@ -61,7 +61,7 @@ std::unique_ptr<MiniECS::Unit>& MiniECS::World::getUnitByIndex(int index)
 std::unique_ptr<MiniECS::Unit>& MiniECS::World::getUnitByName(std::string name)
 {
     bool unitFound = false;
-    for (std::unique_ptr<Unit> unit : worldUnits)
+    for (std::unique_ptr<Unit>& unit : worldUnits)
     {
         if (unit->getName() == name)
         {
@@ -77,7 +77,7 @@ std::unique_ptr<MiniECS::Unit>& MiniECS::World::getUnitByName(std::string name)
 }
 
 
-void MiniECS::World::addModule(std::unique_ptr<Unit> parentUnit, ModuleType moduleType)
+void MiniECS::World::addModule(std::unique_ptr<Unit>& parentUnit, ModuleType moduleType)
 {
     bool found;
 
@@ -107,7 +107,7 @@ void MiniECS::World::addModule(std::unique_ptr<Unit> parentUnit, ModuleType modu
 
 }
 
-void MiniECS::World::removeModuleByID(std::unique_ptr<Unit> parentUnit, int moduleID) const
+void MiniECS::World::removeModule(std::unique_ptr<Unit> parentUnit, ModuleType moduleType)
 {
     bool unitFound = false;
     bool moduleFound = false;
@@ -122,7 +122,7 @@ void MiniECS::World::removeModuleByID(std::unique_ptr<Unit> parentUnit, int modu
             for (auto& module : unit->getModulesVector())
             {
                 std::vector<std::unique_ptr<Module>>& modulesVec = unit->getModulesVector();
-                if (module->getId() == moduleID)
+                if (module->getType() == moduleType)
                 {
                     moduleFound = true;
                     modulesVec.erase(std::remove(modulesVec.begin(), modulesVec.end(), module), modulesVec.end());
@@ -137,87 +137,7 @@ void MiniECS::World::removeModuleByID(std::unique_ptr<Unit> parentUnit, int modu
     }
     if (!moduleFound && moduleStartFind)
     {
-        std::cout << "Could not find module in: " << parentUnit->getName() << " with ID: " << moduleID << "\n";
-    }
-}
-
-void MiniECS::World::removeModuleByIndex(std::unique_ptr<Unit> parentUnit, int index)
-{
-    auto parModulesVec = parentUnit->getModulesVector();
-    parModulesVec.erase(std::remove(parModulesVec.begin(), parModulesVec.end(), parModulesVec.at(index)), parModulesVec.end());
-}
-
-std::unique_ptr<MiniECS::Module> & MiniECS::World::getModuleByID(std::unique_ptr<Unit> parentUnit, int moduleID) const
-{
-    bool unitFound = false;
-    bool moduleFound = false;
-    bool moduleStartFind = false;
-
-    for (auto& unit : worldUnits)
-    {
-        if (unit == parentUnit)
-        {
-            unitFound = true;
-            moduleStartFind = true;
-            for (auto& module : unit->getModulesVector())
-            {
-                std::vector<std::unique_ptr<Module>>& modulesVec = unit->getModulesVector();
-                if (module->getId() == moduleID)
-                {
-                    moduleFound = true;
-                   return module;
-                }
-            }
-        }
-    }
-
-    if (!unitFound)
-    {
-        std::cout << "Could not find: " << parentUnit->getName() << "\n";
-    }
-    if (!moduleFound && moduleStartFind)
-    {
-        std::cout << "Could not find module in: " << parentUnit->getName() << " with ID: " << moduleID << "\n";
-    }
-}
-
-std::unique_ptr<MiniECS::Module> & MiniECS::World::getModuleByIndex(std::unique_ptr<Unit> parentUnit, int index) const
-{
-    auto parModulesVec = parentUnit->getModulesVector();
-    return parModulesVec.at(index);
-}
-
-std::unique_ptr<MiniECS::Module> & MiniECS::World::getModuleByID(std::unique_ptr<Unit> parentUnit, int moduleID)
-{
-    bool unitFound = false;
-    bool moduleFound = false;
-    bool moduleStartFind = false;
-
-    for (std::unique_ptr<Unit>& unit : worldUnits)
-    {
-        if (unit == parentUnit)
-        {
-            unitFound = true;
-            moduleStartFind = true;
-            for (auto& module : unit->getModulesVector())
-            {
-                std::vector<std::unique_ptr<Module>>& modulesVec = unit->getModulesVector();
-                if (module->getId() == moduleID)
-                {
-                    moduleFound = true;
-                    return module;
-                }
-            }
-        }
-    }
-
-    if (!unitFound)
-    {
-        std::cout << "Could not find: " << parentUnit->getName() << "\n";
-    }
-    if (!moduleFound && moduleStartFind)
-    {
-        std::cout << "Could not find module in: " << parentUnit->getName() << " with ID: " << moduleID << "\n";
+        std::cout << "Could not find module in: " << parentUnit->getName() << "\n";
     }
 }
 
