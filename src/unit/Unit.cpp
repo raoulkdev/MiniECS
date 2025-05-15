@@ -5,6 +5,8 @@
 // Imports
 #include "Unit.h"
 #include "../modules/module_base/Module.h"
+#include "../modules/renderer/RendererModule.h"
+#include "../modules/transform/TransformModule.h"
 
 // Constructor
 MiniECS::Unit::Unit(std::string newName)
@@ -20,20 +22,51 @@ MiniECS::Unit::~Unit()
 }
 
 // Add Module
-void MiniECS::Unit::addModule(std::unique_ptr<Module> moduleToAdd)
+void MiniECS::Unit::addModule(ModuleType moduleType)
 {
-    bool duplicateType = false;
+    switch (moduleType)
+    {
+        case ModuleType::Renderer:
+            modules.push_back(std::move(std::make_unique<RendererModule>(ModuleType::Renderer)));
+            break;
+        case ModuleType::Transform:
+            modules.push_back(std::move(std::make_unique<TransformModule>(ModuleType::Transform)));
+            break;
+        default:
+            std::cout << "Invalid Module Type!! \n";
+            break;
+    }
+}
+
+std::unique_ptr<MiniECS::Module> & MiniECS::Unit::getModule(ModuleType moduleType)
+{
     for (std::unique_ptr<Module>& module : modules)
     {
-        if (module->getType() == moduleToAdd->getType())
+        if (module->getType() == moduleType)
         {
-            duplicateType = true;
-            std::cout << "Cannot add: " << module->getTypeName() << "to Unit because it already exsists!\n";
+            return module;
         }
     }
-    if (!duplicateType)
+}
+
+void MiniECS::Unit::removeModule(ModuleType moduleType)
+{
+    bool moduleFound = false;
+    bool moduleStartFind = false;
+
+    moduleStartFind = true;
+    for (auto& module : modules)
     {
-        modules.push_back(std::move(moduleToAdd));
+        if (module->getType() == moduleType)
+        {
+            moduleFound = true;
+            modules.erase(std::remove(modules.begin(), modules.end(), module), modules.end());
+        }
+    }
+
+    if (!moduleFound && moduleStartFind)
+    {
+        std::cout << "Could not find module in: " << name << "\n";
     }
 }
 

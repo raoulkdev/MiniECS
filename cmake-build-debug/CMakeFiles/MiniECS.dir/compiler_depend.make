@@ -4692,6 +4692,10 @@ CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.o: /Users/raoulkaleba/Documents/CLionPr
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
   /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/module_base/Module.h \
+  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/module_base/Module.h \
+  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/renderer/RendererModule.h \
+  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/module_base/Module.h \
+  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/transform/TransformModule.h \
   /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/Unit.h
 
 CMakeFiles/MiniECS.dir/src/world/World.cpp.o: /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/world/World.cpp \

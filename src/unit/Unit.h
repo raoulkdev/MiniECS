@@ -25,8 +25,10 @@ namespace MiniECS
         // Destructor
         ~Unit();
 
-        // Add Module
-        void addModule(std::unique_ptr<Module> moduleToAdd);
+        // Module functions
+        void addModule(ModuleType moduleType);
+        std::unique_ptr<Module>& getModule(ModuleType moduleType);
+        void removeModule(ModuleType moduleType);
 
         // Get Name
         std::string getName() const;

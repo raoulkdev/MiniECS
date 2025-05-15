@@ -933,4 +933,8 @@ CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/stack \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/unistd.h \
-  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/../modules/module_base/Module.h
+  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/../modules/module_base/Module.h \
+  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/../modules/renderer/RendererModule.h \
+  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/../modules/renderer/../module_base/Module.h \
+  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/../modules/transform/TransformModule.h \
+  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/../modules/transform/../module_base/Module.h
