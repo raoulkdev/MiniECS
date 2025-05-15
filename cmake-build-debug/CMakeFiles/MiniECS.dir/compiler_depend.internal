@@ -11,12 +11,14 @@ CMakeFiles/MiniECS.dir/src/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/__wctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/__xlocale.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_abort.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_assert.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_bounds.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_ctermid.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_ctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_locale.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_mb_cur_max.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_printf.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_static_assert.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_stdio.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_stdlib.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_string.h
@@ -45,6 +47,7 @@ CMakeFiles/MiniECS.dir/src/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/arm/limits.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/arm/signal.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/arm/types.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/assert.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__algorithm/all_of.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__algorithm/any_of.h
@@ -734,8 +737,10 @@ CMakeFiles/MiniECS.dir/src/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/atomic
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/bit
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/bitset
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cassert
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cctype
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cerrno
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cfloat
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/climits
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/clocale
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cmath
@@ -754,6 +759,7 @@ CMakeFiles/MiniECS.dir/src/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/deque
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/errno.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/exception
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/format
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/functional
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/initializer_list
@@ -799,6 +805,7 @@ CMakeFiles/MiniECS.dir/src/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/wctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/ctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/errno.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/libkern/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/limits.h
@@ -942,15 +949,198 @@ CMakeFiles/MiniECS.dir/src/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_rsize_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_size_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_wchar_t.h
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/float.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/ptrcheck.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h
  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/module_base/Module.h
+ /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/transform/TransformModule.h
+ /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/module_base/Module.h
  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/Unit.h
  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/Unit.h
  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/world/World.h
+ /opt/homebrew/include/glm/matrix.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x2.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x3.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x3.inl
+ /opt/homebrew/include/glm/detail/type_mat2x4.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x4.inl
+ /opt/homebrew/include/glm/detail/type_mat3x2.hpp
+ /opt/homebrew/include/glm/detail/type_mat3x2.inl
+ /opt/homebrew/include/glm/detail/type_mat3x3.hpp
+ /opt/homebrew/include/glm/detail/type_mat3x3.inl
+ /opt/homebrew/include/glm/detail/type_mat3x4.hpp
+ /opt/homebrew/include/glm/detail/type_mat3x4.inl
+ /opt/homebrew/include/glm/detail/type_mat4x2.hpp
+ /opt/homebrew/include/glm/detail/type_mat4x2.inl
+ /opt/homebrew/include/glm/detail/type_mat4x3.hpp
+ /opt/homebrew/include/glm/detail/type_mat4x3.inl
+ /opt/homebrew/include/glm/detail/type_mat4x4.hpp
+ /opt/homebrew/include/glm/detail/type_mat4x4.inl
+ /opt/homebrew/include/glm/detail/type_vec2.hpp
+ /opt/homebrew/include/glm/detail/type_vec3.hpp
+ /opt/homebrew/include/glm/detail/type_vec4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp
+ /opt/homebrew/include/glm/common.hpp
+ /opt/homebrew/include/glm/detail/func_vector_relational.inl
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/vector_relational.hpp
+ /opt/homebrew/include/glm/detail/compute_vector_relational.hpp
+ /opt/homebrew/include/glm/detail/_fixes.hpp
+ /opt/homebrew/include/glm/detail/_vectorize.hpp
+ /opt/homebrew/include/glm/detail/compute_common.hpp
+ /opt/homebrew/include/glm/detail/func_common.inl
+ /opt/homebrew/include/glm/detail/func_exponential.inl
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/detail/type_vec1.hpp
+ /opt/homebrew/include/glm/detail/type_vec1.inl
+ /opt/homebrew/include/glm/detail/type_vec2.hpp
+ /opt/homebrew/include/glm/detail/type_vec3.hpp
+ /opt/homebrew/include/glm/detail/type_vec4.hpp
+ /opt/homebrew/include/glm/exponential.hpp
+ /opt/homebrew/include/glm/detail/func_geometric.inl
+ /opt/homebrew/include/glm/detail/type_vec3.hpp
+ /opt/homebrew/include/glm/geometric.hpp
+ /opt/homebrew/include/glm/detail/func_matrix.inl
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/mat2x2.hpp
+ /opt/homebrew/include/glm/mat2x3.hpp
+ /opt/homebrew/include/glm/mat2x4.hpp
+ /opt/homebrew/include/glm/mat3x2.hpp
+ /opt/homebrew/include/glm/mat3x3.hpp
+ /opt/homebrew/include/glm/mat3x4.hpp
+ /opt/homebrew/include/glm/mat4x2.hpp
+ /opt/homebrew/include/glm/mat4x3.hpp
+ /opt/homebrew/include/glm/mat4x4.hpp
+ /opt/homebrew/include/glm/matrix.hpp
+ /opt/homebrew/include/glm/vec2.hpp
+ /opt/homebrew/include/glm/vec3.hpp
+ /opt/homebrew/include/glm/vec4.hpp
+ /opt/homebrew/include/glm/detail/compute_vector_relational.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/detail/compute_vector_relational.hpp
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x2.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x2.inl
+ /opt/homebrew/include/glm/detail/type_vec2.hpp
+ /opt/homebrew/include/glm/detail/type_vec2.inl
+ /opt/homebrew/include/glm/detail/type_vec3.hpp
+ /opt/homebrew/include/glm/detail/type_vec3.inl
+ /opt/homebrew/include/glm/detail/type_vec4.hpp
+ /opt/homebrew/include/glm/detail/type_vec4.inl
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/ext/scalar_int_sized.hpp
+ /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_int2.hpp
+ /opt/homebrew/include/glm/ext/vector_int3.hpp
+ /opt/homebrew/include/glm/ext/vector_int4.hpp
+ /opt/homebrew/include/glm/ext/vector_uint2.hpp
+ /opt/homebrew/include/glm/ext/vector_uint3.hpp
+ /opt/homebrew/include/glm/ext/vector_uint4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x2_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_bool2.hpp
+ /opt/homebrew/include/glm/ext/vector_bool2_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_bool3.hpp
+ /opt/homebrew/include/glm/ext/vector_bool3_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_bool4.hpp
+ /opt/homebrew/include/glm/ext/vector_bool4_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_double2.hpp
+ /opt/homebrew/include/glm/ext/vector_double2_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_double3.hpp
+ /opt/homebrew/include/glm/ext/vector_double3_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_double4.hpp
+ /opt/homebrew/include/glm/ext/vector_double4_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_float2.hpp
+ /opt/homebrew/include/glm/ext/vector_float2_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_float3.hpp
+ /opt/homebrew/include/glm/ext/vector_float3_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_float4.hpp
+ /opt/homebrew/include/glm/ext/vector_float4_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_int2.hpp
+ /opt/homebrew/include/glm/ext/vector_int2_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_int3.hpp
+ /opt/homebrew/include/glm/ext/vector_int3_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_int4.hpp
+ /opt/homebrew/include/glm/ext/vector_int4_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_uint2.hpp
+ /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_uint3.hpp
+ /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_uint4.hpp
+ /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp
+ /opt/homebrew/include/glm/common.hpp
+ /opt/homebrew/include/glm/common.hpp
+ /opt/homebrew/include/glm/simd/platform.h
+ /opt/homebrew/include/glm/detail/_fixes.hpp
+ /opt/homebrew/include/glm/detail/_vectorize.hpp
+ /opt/homebrew/include/glm/detail/func_integer.inl
+ /opt/homebrew/include/glm/detail/func_packing.inl
+ /opt/homebrew/include/glm/detail/func_trigonometric.inl
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/detail/type_half.hpp
+ /opt/homebrew/include/glm/detail/type_half.inl
+ /opt/homebrew/include/glm/exponential.hpp
+ /opt/homebrew/include/glm/fwd.hpp
+ /opt/homebrew/include/glm/geometric.hpp
+ /opt/homebrew/include/glm/glm.hpp
+ /opt/homebrew/include/glm/integer.hpp
+ /opt/homebrew/include/glm/mat2x2.hpp
+ /opt/homebrew/include/glm/mat2x3.hpp
+ /opt/homebrew/include/glm/mat2x4.hpp
+ /opt/homebrew/include/glm/mat3x2.hpp
+ /opt/homebrew/include/glm/mat3x3.hpp
+ /opt/homebrew/include/glm/mat3x4.hpp
+ /opt/homebrew/include/glm/mat4x2.hpp
+ /opt/homebrew/include/glm/mat4x3.hpp
+ /opt/homebrew/include/glm/mat4x4.hpp
+ /opt/homebrew/include/glm/matrix.hpp
+ /opt/homebrew/include/glm/packing.hpp
+ /opt/homebrew/include/glm/trigonometric.hpp
+ /opt/homebrew/include/glm/vec2.hpp
+ /opt/homebrew/include/glm/vec3.hpp
+ /opt/homebrew/include/glm/vec4.hpp
+ /opt/homebrew/include/glm/vector_relational.hpp
 
 CMakeFiles/MiniECS.dir/src/modules/module_base/Module.cpp.o
  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/module_base/Module.cpp
@@ -2835,12 +3025,14 @@ CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/__wctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/__xlocale.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_abort.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_assert.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_bounds.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_ctermid.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_ctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_locale.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_mb_cur_max.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_printf.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_static_assert.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_stdio.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_stdlib.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_string.h
@@ -2869,6 +3061,7 @@ CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/arm/limits.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/arm/signal.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/arm/types.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/assert.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__algorithm/all_of.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__algorithm/any_of.h
@@ -3548,8 +3741,10 @@ CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/atomic
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/bit
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/bitset
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cassert
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cctype
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cerrno
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cfloat
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/climits
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/clocale
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cmath
@@ -3568,6 +3763,7 @@ CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/deque
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/errno.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/exception
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/format
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/functional
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/initializer_list
@@ -3611,6 +3807,7 @@ CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/wctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/ctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/errno.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/libkern/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/limits.h
@@ -3754,6 +3951,7 @@ CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.o
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_rsize_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_size_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_wchar_t.h
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/float.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/ptrcheck.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h
@@ -3761,6 +3959,186 @@ CMakeFiles/MiniECS.dir/src/modules/transform/TransformModule.cpp.o
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h
  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/module_base/Module.h
  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/transform/TransformModule.h
+ /opt/homebrew/include/glm/matrix.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x2.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x3.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x3.inl
+ /opt/homebrew/include/glm/detail/type_mat2x4.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x4.inl
+ /opt/homebrew/include/glm/detail/type_mat3x2.hpp
+ /opt/homebrew/include/glm/detail/type_mat3x2.inl
+ /opt/homebrew/include/glm/detail/type_mat3x3.hpp
+ /opt/homebrew/include/glm/detail/type_mat3x3.inl
+ /opt/homebrew/include/glm/detail/type_mat3x4.hpp
+ /opt/homebrew/include/glm/detail/type_mat3x4.inl
+ /opt/homebrew/include/glm/detail/type_mat4x2.hpp
+ /opt/homebrew/include/glm/detail/type_mat4x2.inl
+ /opt/homebrew/include/glm/detail/type_mat4x3.hpp
+ /opt/homebrew/include/glm/detail/type_mat4x3.inl
+ /opt/homebrew/include/glm/detail/type_mat4x4.hpp
+ /opt/homebrew/include/glm/detail/type_mat4x4.inl
+ /opt/homebrew/include/glm/detail/type_vec2.hpp
+ /opt/homebrew/include/glm/detail/type_vec3.hpp
+ /opt/homebrew/include/glm/detail/type_vec4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp
+ /opt/homebrew/include/glm/common.hpp
+ /opt/homebrew/include/glm/detail/func_vector_relational.inl
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/vector_relational.hpp
+ /opt/homebrew/include/glm/detail/compute_vector_relational.hpp
+ /opt/homebrew/include/glm/detail/_fixes.hpp
+ /opt/homebrew/include/glm/detail/_vectorize.hpp
+ /opt/homebrew/include/glm/detail/compute_common.hpp
+ /opt/homebrew/include/glm/detail/func_common.inl
+ /opt/homebrew/include/glm/detail/func_exponential.inl
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/detail/type_vec1.hpp
+ /opt/homebrew/include/glm/detail/type_vec1.inl
+ /opt/homebrew/include/glm/detail/type_vec2.hpp
+ /opt/homebrew/include/glm/detail/type_vec3.hpp
+ /opt/homebrew/include/glm/detail/type_vec4.hpp
+ /opt/homebrew/include/glm/exponential.hpp
+ /opt/homebrew/include/glm/detail/func_geometric.inl
+ /opt/homebrew/include/glm/detail/type_vec3.hpp
+ /opt/homebrew/include/glm/geometric.hpp
+ /opt/homebrew/include/glm/detail/func_matrix.inl
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/mat2x2.hpp
+ /opt/homebrew/include/glm/mat2x3.hpp
+ /opt/homebrew/include/glm/mat2x4.hpp
+ /opt/homebrew/include/glm/mat3x2.hpp
+ /opt/homebrew/include/glm/mat3x3.hpp
+ /opt/homebrew/include/glm/mat3x4.hpp
+ /opt/homebrew/include/glm/mat4x2.hpp
+ /opt/homebrew/include/glm/mat4x3.hpp
+ /opt/homebrew/include/glm/mat4x4.hpp
+ /opt/homebrew/include/glm/matrix.hpp
+ /opt/homebrew/include/glm/vec2.hpp
+ /opt/homebrew/include/glm/vec3.hpp
+ /opt/homebrew/include/glm/vec4.hpp
+ /opt/homebrew/include/glm/detail/compute_vector_relational.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/detail/compute_vector_relational.hpp
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x2.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x2.inl
+ /opt/homebrew/include/glm/detail/type_vec2.hpp
+ /opt/homebrew/include/glm/detail/type_vec2.inl
+ /opt/homebrew/include/glm/detail/type_vec3.hpp
+ /opt/homebrew/include/glm/detail/type_vec3.inl
+ /opt/homebrew/include/glm/detail/type_vec4.hpp
+ /opt/homebrew/include/glm/detail/type_vec4.inl
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/ext/scalar_int_sized.hpp
+ /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_int2.hpp
+ /opt/homebrew/include/glm/ext/vector_int3.hpp
+ /opt/homebrew/include/glm/ext/vector_int4.hpp
+ /opt/homebrew/include/glm/ext/vector_uint2.hpp
+ /opt/homebrew/include/glm/ext/vector_uint3.hpp
+ /opt/homebrew/include/glm/ext/vector_uint4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x2_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_bool2.hpp
+ /opt/homebrew/include/glm/ext/vector_bool2_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_bool3.hpp
+ /opt/homebrew/include/glm/ext/vector_bool3_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_bool4.hpp
+ /opt/homebrew/include/glm/ext/vector_bool4_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_double2.hpp
+ /opt/homebrew/include/glm/ext/vector_double2_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_double3.hpp
+ /opt/homebrew/include/glm/ext/vector_double3_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_double4.hpp
+ /opt/homebrew/include/glm/ext/vector_double4_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_float2.hpp
+ /opt/homebrew/include/glm/ext/vector_float2_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_float3.hpp
+ /opt/homebrew/include/glm/ext/vector_float3_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_float4.hpp
+ /opt/homebrew/include/glm/ext/vector_float4_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_int2.hpp
+ /opt/homebrew/include/glm/ext/vector_int2_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_int3.hpp
+ /opt/homebrew/include/glm/ext/vector_int3_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_int4.hpp
+ /opt/homebrew/include/glm/ext/vector_int4_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_uint2.hpp
+ /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_uint3.hpp
+ /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_uint4.hpp
+ /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp
+ /opt/homebrew/include/glm/common.hpp
+ /opt/homebrew/include/glm/common.hpp
+ /opt/homebrew/include/glm/simd/platform.h
+ /opt/homebrew/include/glm/detail/_fixes.hpp
+ /opt/homebrew/include/glm/detail/_vectorize.hpp
+ /opt/homebrew/include/glm/detail/func_integer.inl
+ /opt/homebrew/include/glm/detail/func_packing.inl
+ /opt/homebrew/include/glm/detail/func_trigonometric.inl
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/detail/type_half.hpp
+ /opt/homebrew/include/glm/detail/type_half.inl
+ /opt/homebrew/include/glm/exponential.hpp
+ /opt/homebrew/include/glm/fwd.hpp
+ /opt/homebrew/include/glm/geometric.hpp
+ /opt/homebrew/include/glm/glm.hpp
+ /opt/homebrew/include/glm/integer.hpp
+ /opt/homebrew/include/glm/mat2x2.hpp
+ /opt/homebrew/include/glm/mat2x3.hpp
+ /opt/homebrew/include/glm/mat2x4.hpp
+ /opt/homebrew/include/glm/mat3x2.hpp
+ /opt/homebrew/include/glm/mat3x3.hpp
+ /opt/homebrew/include/glm/mat3x4.hpp
+ /opt/homebrew/include/glm/mat4x2.hpp
+ /opt/homebrew/include/glm/mat4x3.hpp
+ /opt/homebrew/include/glm/mat4x4.hpp
+ /opt/homebrew/include/glm/matrix.hpp
+ /opt/homebrew/include/glm/packing.hpp
+ /opt/homebrew/include/glm/trigonometric.hpp
+ /opt/homebrew/include/glm/vec2.hpp
+ /opt/homebrew/include/glm/vec3.hpp
+ /opt/homebrew/include/glm/vec4.hpp
+ /opt/homebrew/include/glm/vector_relational.hpp
 
 CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.o
  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/Unit.cpp
@@ -3772,12 +4150,14 @@ CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/__wctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/__xlocale.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_abort.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_assert.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_bounds.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_ctermid.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_ctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_locale.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_mb_cur_max.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_printf.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_static_assert.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_stdio.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_stdlib.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/_string.h
@@ -3806,6 +4186,7 @@ CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/arm/limits.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/arm/signal.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/arm/types.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/assert.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__algorithm/all_of.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__algorithm/any_of.h
@@ -4485,8 +4866,10 @@ CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/atomic
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/bit
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/bitset
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cassert
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cctype
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cerrno
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cfloat
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/climits
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/clocale
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cmath
@@ -4505,6 +4888,7 @@ CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/deque
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/errno.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/exception
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/format
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/functional
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/initializer_list
@@ -4548,6 +4932,7 @@ CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/wctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/ctype.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/errno.h
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/float.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/libkern/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/libkern/arm/_OSByteOrder.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/limits.h
@@ -4691,6 +5076,7 @@ CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.o
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_rsize_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_size_t.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_wchar_t.h
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/float.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/ptrcheck.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h
@@ -4702,6 +5088,186 @@ CMakeFiles/MiniECS.dir/src/unit/Unit.cpp.o
  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/module_base/Module.h
  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/transform/TransformModule.h
  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/Unit.h
+ /opt/homebrew/include/glm/matrix.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x2.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x3.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x3.inl
+ /opt/homebrew/include/glm/detail/type_mat2x4.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x4.inl
+ /opt/homebrew/include/glm/detail/type_mat3x2.hpp
+ /opt/homebrew/include/glm/detail/type_mat3x2.inl
+ /opt/homebrew/include/glm/detail/type_mat3x3.hpp
+ /opt/homebrew/include/glm/detail/type_mat3x3.inl
+ /opt/homebrew/include/glm/detail/type_mat3x4.hpp
+ /opt/homebrew/include/glm/detail/type_mat3x4.inl
+ /opt/homebrew/include/glm/detail/type_mat4x2.hpp
+ /opt/homebrew/include/glm/detail/type_mat4x2.inl
+ /opt/homebrew/include/glm/detail/type_mat4x3.hpp
+ /opt/homebrew/include/glm/detail/type_mat4x3.inl
+ /opt/homebrew/include/glm/detail/type_mat4x4.hpp
+ /opt/homebrew/include/glm/detail/type_mat4x4.inl
+ /opt/homebrew/include/glm/detail/type_vec2.hpp
+ /opt/homebrew/include/glm/detail/type_vec3.hpp
+ /opt/homebrew/include/glm/detail/type_vec4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double3x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double4x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_float3x4_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x3.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x3_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x4.hpp
+ /opt/homebrew/include/glm/ext/matrix_float4x4_precision.hpp
+ /opt/homebrew/include/glm/common.hpp
+ /opt/homebrew/include/glm/detail/func_vector_relational.inl
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/vector_relational.hpp
+ /opt/homebrew/include/glm/detail/compute_vector_relational.hpp
+ /opt/homebrew/include/glm/detail/_fixes.hpp
+ /opt/homebrew/include/glm/detail/_vectorize.hpp
+ /opt/homebrew/include/glm/detail/compute_common.hpp
+ /opt/homebrew/include/glm/detail/func_common.inl
+ /opt/homebrew/include/glm/detail/func_exponential.inl
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/detail/type_vec1.hpp
+ /opt/homebrew/include/glm/detail/type_vec1.inl
+ /opt/homebrew/include/glm/detail/type_vec2.hpp
+ /opt/homebrew/include/glm/detail/type_vec3.hpp
+ /opt/homebrew/include/glm/detail/type_vec4.hpp
+ /opt/homebrew/include/glm/exponential.hpp
+ /opt/homebrew/include/glm/detail/func_geometric.inl
+ /opt/homebrew/include/glm/detail/type_vec3.hpp
+ /opt/homebrew/include/glm/geometric.hpp
+ /opt/homebrew/include/glm/detail/func_matrix.inl
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/mat2x2.hpp
+ /opt/homebrew/include/glm/mat2x3.hpp
+ /opt/homebrew/include/glm/mat2x4.hpp
+ /opt/homebrew/include/glm/mat3x2.hpp
+ /opt/homebrew/include/glm/mat3x3.hpp
+ /opt/homebrew/include/glm/mat3x4.hpp
+ /opt/homebrew/include/glm/mat4x2.hpp
+ /opt/homebrew/include/glm/mat4x3.hpp
+ /opt/homebrew/include/glm/mat4x4.hpp
+ /opt/homebrew/include/glm/matrix.hpp
+ /opt/homebrew/include/glm/vec2.hpp
+ /opt/homebrew/include/glm/vec3.hpp
+ /opt/homebrew/include/glm/vec4.hpp
+ /opt/homebrew/include/glm/detail/compute_vector_relational.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/detail/compute_vector_relational.hpp
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x2.hpp
+ /opt/homebrew/include/glm/detail/type_mat2x2.inl
+ /opt/homebrew/include/glm/detail/type_vec2.hpp
+ /opt/homebrew/include/glm/detail/type_vec2.inl
+ /opt/homebrew/include/glm/detail/type_vec3.hpp
+ /opt/homebrew/include/glm/detail/type_vec3.inl
+ /opt/homebrew/include/glm/detail/type_vec4.hpp
+ /opt/homebrew/include/glm/detail/type_vec4.inl
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/ext/scalar_int_sized.hpp
+ /opt/homebrew/include/glm/ext/scalar_uint_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_int2.hpp
+ /opt/homebrew/include/glm/ext/vector_int3.hpp
+ /opt/homebrew/include/glm/ext/vector_int4.hpp
+ /opt/homebrew/include/glm/ext/vector_uint2.hpp
+ /opt/homebrew/include/glm/ext/vector_uint3.hpp
+ /opt/homebrew/include/glm/ext/vector_uint4.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_double2x2_precision.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x2.hpp
+ /opt/homebrew/include/glm/ext/matrix_float2x2_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_bool2.hpp
+ /opt/homebrew/include/glm/ext/vector_bool2_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_bool3.hpp
+ /opt/homebrew/include/glm/ext/vector_bool3_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_bool4.hpp
+ /opt/homebrew/include/glm/ext/vector_bool4_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_double2.hpp
+ /opt/homebrew/include/glm/ext/vector_double2_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_double3.hpp
+ /opt/homebrew/include/glm/ext/vector_double3_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_double4.hpp
+ /opt/homebrew/include/glm/ext/vector_double4_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_float2.hpp
+ /opt/homebrew/include/glm/ext/vector_float2_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_float3.hpp
+ /opt/homebrew/include/glm/ext/vector_float3_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_float4.hpp
+ /opt/homebrew/include/glm/ext/vector_float4_precision.hpp
+ /opt/homebrew/include/glm/ext/vector_int2.hpp
+ /opt/homebrew/include/glm/ext/vector_int2_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_int3.hpp
+ /opt/homebrew/include/glm/ext/vector_int3_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_int4.hpp
+ /opt/homebrew/include/glm/ext/vector_int4_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_uint2.hpp
+ /opt/homebrew/include/glm/ext/vector_uint2_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_uint3.hpp
+ /opt/homebrew/include/glm/ext/vector_uint3_sized.hpp
+ /opt/homebrew/include/glm/ext/vector_uint4.hpp
+ /opt/homebrew/include/glm/ext/vector_uint4_sized.hpp
+ /opt/homebrew/include/glm/common.hpp
+ /opt/homebrew/include/glm/common.hpp
+ /opt/homebrew/include/glm/simd/platform.h
+ /opt/homebrew/include/glm/detail/_fixes.hpp
+ /opt/homebrew/include/glm/detail/_vectorize.hpp
+ /opt/homebrew/include/glm/detail/func_integer.inl
+ /opt/homebrew/include/glm/detail/func_packing.inl
+ /opt/homebrew/include/glm/detail/func_trigonometric.inl
+ /opt/homebrew/include/glm/detail/qualifier.hpp
+ /opt/homebrew/include/glm/detail/setup.hpp
+ /opt/homebrew/include/glm/detail/type_half.hpp
+ /opt/homebrew/include/glm/detail/type_half.inl
+ /opt/homebrew/include/glm/exponential.hpp
+ /opt/homebrew/include/glm/fwd.hpp
+ /opt/homebrew/include/glm/geometric.hpp
+ /opt/homebrew/include/glm/glm.hpp
+ /opt/homebrew/include/glm/integer.hpp
+ /opt/homebrew/include/glm/mat2x2.hpp
+ /opt/homebrew/include/glm/mat2x3.hpp
+ /opt/homebrew/include/glm/mat2x4.hpp
+ /opt/homebrew/include/glm/mat3x2.hpp
+ /opt/homebrew/include/glm/mat3x3.hpp
+ /opt/homebrew/include/glm/mat3x4.hpp
+ /opt/homebrew/include/glm/mat4x2.hpp
+ /opt/homebrew/include/glm/mat4x3.hpp
+ /opt/homebrew/include/glm/mat4x4.hpp
+ /opt/homebrew/include/glm/matrix.hpp
+ /opt/homebrew/include/glm/packing.hpp
+ /opt/homebrew/include/glm/trigonometric.hpp
+ /opt/homebrew/include/glm/vec2.hpp
+ /opt/homebrew/include/glm/vec3.hpp
+ /opt/homebrew/include/glm/vec4.hpp
+ /opt/homebrew/include/glm/vector_relational.hpp
 
 CMakeFiles/MiniECS.dir/src/world/World.cpp.o
  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/world/World.cpp

@@ -27,8 +27,21 @@ namespace MiniECS
 
         // Module functions
         void addModule(ModuleType moduleType);
-        std::unique_ptr<Module>& getModule(ModuleType moduleType);
         void removeModule(ModuleType moduleType);
+
+        template<typename T>
+        T* getModuleAs()
+        {
+            for (auto& module : modules)
+            {
+                if (auto* result = dynamic_cast<T*>(module.get()))
+                {
+                    return result;
+                }
+            }
+            std::cerr << "Module of requested type not found in unit: " << name << std::endl;
+            return nullptr;
+        }
 
         // Get Name
         std::string getName() const;

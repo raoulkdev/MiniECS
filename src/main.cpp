@@ -4,6 +4,8 @@
 
 // Imports
 #include <memory>
+
+#include "modules/transform/TransformModule.h"
 #include "unit/Unit.h"
 #include "world/World.h"
 
@@ -15,7 +17,9 @@ int main()
     scene->createUnit("u1");
     scene->getUnitByName("u1")->addModule(MiniECS::ModuleType::Renderer);
     scene->getUnitByName("u1")->addModule(MiniECS::ModuleType::Transform);
-    auto& trans = scene->getUnitByName("u1")->getModule(MiniECS::ModuleType::Transform);
-    scene->getUnitByName("u1")->addModule(MiniECS::ModuleType::Transform);
-    //scene->play();
+    // TODO: Fix only accessable as ModuleBase
+
+    scene->getUnitByName("u1")->getModuleAs<MiniECS::TransformModule>()->setPosition({1, 22});
+
+    scene->play();
 }

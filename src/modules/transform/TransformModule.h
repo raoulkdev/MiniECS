@@ -9,7 +9,6 @@
 #include "/opt/homebrew/include/glm/glm.hpp"
 namespace MiniECS
 {
-    // TODO: Add glm & getter & setter functions
     class TransformModule : public Module{
     private:
         // Transform values

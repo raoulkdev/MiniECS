@@ -50,17 +50,6 @@ void MiniECS::Unit::addModule(ModuleType moduleType)
     }
 }
 
-std::unique_ptr<MiniECS::Module> & MiniECS::Unit::getModule(ModuleType moduleType)
-{
-    for (std::unique_ptr<Module>& module : modules)
-    {
-        if (module->getType() == moduleType)
-        {
-            return module;
-        }
-    }
-}
-
 void MiniECS::Unit::removeModule(ModuleType moduleType)
 {
     bool moduleFound = false;
