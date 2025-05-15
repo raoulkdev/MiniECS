@@ -946,8 +946,4 @@ CMakeFiles/MiniECS.dir/src/world/World.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__thread/this_thread.h \
   /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/world/../unit/Unit.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/iostream \
-  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/world/../unit/../modules/module_base/Module.h \
-  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/world/../modules/renderer/RendererModule.h \
-  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/world/../modules/renderer/../module_base/Module.h \
-  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/world/../modules/transform/TransformModule.h \
-  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/world/../modules/transform/../module_base/Module.h
+  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/world/../unit/../modules/module_base/Module.h

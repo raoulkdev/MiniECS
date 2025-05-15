@@ -24,17 +24,29 @@ MiniECS::Unit::~Unit()
 // Add Module
 void MiniECS::Unit::addModule(ModuleType moduleType)
 {
-    switch (moduleType)
+    bool duplicate = false;
+    for (std::unique_ptr<Module> module : modules)
     {
-        case ModuleType::Renderer:
-            modules.push_back(std::move(std::make_unique<RendererModule>(ModuleType::Renderer)));
-            break;
-        case ModuleType::Transform:
-            modules.push_back(std::move(std::make_unique<TransformModule>(ModuleType::Transform)));
-            break;
-        default:
-            std::cout << "Invalid Module Type!! \n";
-            break;
+        if (module->getType() == moduleType)
+        {
+            duplicate = true;
+            std::cout << "Module type already exsists, cannot add it!\n";
+        }
+    }
+    if (!duplicate)
+    {
+        switch (moduleType)
+        {
+            case ModuleType::Renderer:
+                modules.push_back(std::move(std::make_unique<RendererModule>(ModuleType::Renderer)));
+                break;
+            case ModuleType::Transform:
+                modules.push_back(std::move(std::make_unique<TransformModule>(ModuleType::Transform)));
+                break;
+            default:
+                std::cout << "Invalid Module Type!! \n";
+                break;
+        }
     }
 }
 

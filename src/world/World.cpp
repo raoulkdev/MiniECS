@@ -7,8 +7,6 @@
 #include <iostream>
 #include <memory>
 #include <algorithm>
-#include "../modules/renderer/RendererModule.h"
-#include "../modules/transform/TransformModule.h"
 
 MiniECS::World::World(std::string initName)
 {
