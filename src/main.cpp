@@ -17,8 +17,5 @@ int main()
     scene->getUnitByName("u1")->addModule(MiniECS::ModuleType::Transform);
     auto& trans = scene->getUnitByName("u1")->getModule(MiniECS::ModuleType::Transform);
     scene->getUnitByName("u1")->addModule(MiniECS::ModuleType::Transform);
-
-    // TOD: Add specific Module manipulation functions
-    //trans->
     //scene->play();
 }

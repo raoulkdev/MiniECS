@@ -25,7 +25,7 @@ MiniECS::Unit::~Unit()
 void MiniECS::Unit::addModule(ModuleType moduleType)
 {
     bool duplicate = false;
-    for (std::unique_ptr<Module> module : modules)
+    for (std::unique_ptr<Module>& module : modules)
     {
         if (module->getType() == moduleType)
         {
