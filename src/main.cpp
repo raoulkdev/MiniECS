@@ -13,9 +13,11 @@ int main()
     // World
     std::unique_ptr<MiniECS::World> scene = std::make_unique<MiniECS::World>("Scene");
     scene->createUnit("u1");
-    scene->addModule(scene->getUnitByName("u1"), MiniECS::ModuleType::Renderer);
-    scene->addModule(scene->getUnitByName("u1"), MiniECS::ModuleType::Transform);
-    scene->addModule(scene->getUnitByName("u1"), MiniECS::ModuleType::Transform);
-    std::cout << scene->getUnitByName("u1")->getName() << "\n";
+    scene->getUnitByName("u1")->addModule(MiniECS::ModuleType::Renderer);
+    scene->getUnitByName("u1")->addModule(MiniECS::ModuleType::Transform);
+    auto& trans = scene->getUnitByName("u1")->getModule(MiniECS::ModuleType::Transform);
+
+    // TOD: Add specific Module manipulation functions
+    //trans->
     scene->play();
 }

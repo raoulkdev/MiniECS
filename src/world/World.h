@@ -31,10 +31,6 @@ namespace MiniECS
         std::unique_ptr<Unit>& getUnitByIndex(int index);
         const std::vector<std::unique_ptr<Unit>>& getUnitsVector() const;
 
-        // Module functions
-        void addModule(std::unique_ptr<Unit>& parentUnit, ModuleType moduleType);
-        void removeModule(std::unique_ptr<Unit>& parentUnit, ModuleType moduleType);
-
         // Game loop/lifetime functions
         void play() const;
     };
