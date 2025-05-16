@@ -1,10 +1,6 @@
-//
-// Created by Raoul Kaleba on 4/16/2025.
-//
-
 // Imports
-#include "RendererModule.h"
 #include <iostream>
+#include "RendererModule.h"
 
 // Renderer start
 void MiniECS::RendererModule::start()

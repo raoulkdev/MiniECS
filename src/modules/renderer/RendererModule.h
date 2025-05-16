@@ -1,6 +1,3 @@
-//
-// Created by Raoul Kaleba on 4/16/2025.
-//
 #ifndef RENDERERMODULE_H
 #define RENDERERMODULE_H
 

@@ -1,11 +1,5 @@
-//
-// Created by Raoul Kaleba on 4/16/2025.
-//
-
 // Imports
 #include <memory>
-
-#include "modules/renderer/RendererModule.h"
 #include "modules/transform/TransformModule.h"
 #include "unit/Unit.h"
 #include "world/World.h"

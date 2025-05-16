@@ -1,12 +1,10 @@
-//
-// Created by Raoul Kaleba on 4/16/2025.
-//
 #ifndef TRANSFORMMODULE_H
 #define TRANSFORMMODULE_H
 
 // Imports
 #include "../module_base/Module.h"
-#include "/opt/homebrew/include/glm/glm.hpp"
+#include "/opt/homebrew/include/glm/glm.hpp" // Change this to where you have GLM
+
 namespace MiniECS
 {
     class TransformModule : public Module{

@@ -1,6 +1,3 @@
-//
-// Created by Raoul Kaleba on 4/18/2025.
-//
 #ifndef WORLD_H
 #define WORLD_H
 
@@ -14,7 +11,9 @@ namespace MiniECS
 {
     class World {
     private:
+        // Units in the world
         std::vector<std::unique_ptr<Unit>> worldUnits;
+        // World name
         std::string worldName;
     public:
         // Constructor

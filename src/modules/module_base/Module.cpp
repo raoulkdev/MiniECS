@@ -1,11 +1,8 @@
-//
-// Created by Raoul Kaleba on 4/15/2025.
-//
-
 // Imports
-#include "Module.h"
 #include <iostream>
+#include "Module.h"
 
+// Constructor
 MiniECS::Module::Module(const ModuleType setType)
 {
     type = setType;
@@ -29,24 +26,27 @@ MiniECS::Module::Module(const ModuleType setType)
     std::cout << "Added " << moduleTypeName << "\n";
 }
 
+// Destructor
 MiniECS::Module::~Module()
 {
     // Add remove module function
     std::cout << "Removed " << moduleTypeName << "\n";
 }
 
+// Return Module type string
 std::string MiniECS::Module::getTypeName()
 {
     return moduleTypeName;
 }
 
+// Return Module type enum value
 MiniECS::ModuleType MiniECS::Module::getType()
 {
     return type;
 }
 
 
-// Default module update
+// Game loop/lifetime
 void MiniECS::Module::start()
 {
     std::cout << "Start / Start module\n";

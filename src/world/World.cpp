@@ -1,19 +1,16 @@
-//
-// Created by Raoul Kaleba on 4/18/2025.
-//
-#include "World.h"
-
 // Imports
 #include <iostream>
 #include <memory>
 #include <algorithm>
+#include "World.h"
 
+// Constructor
 MiniECS::World::World(std::string initName)
 {
     worldName = initName;
 }
 
-
+// Create and add Unit to world
 void MiniECS::World::createUnit(std::string newUnitName)
 {
     if (!newUnitName.empty())
@@ -27,6 +24,7 @@ void MiniECS::World::createUnit(std::string newUnitName)
     }
 }
 
+// Delete unit by name
 void MiniECS::World::removeUnitByName(std::string unitName)
 {
     bool unitFound = false;
@@ -46,16 +44,19 @@ void MiniECS::World::removeUnitByName(std::string unitName)
     }
 }
 
+// Delete Unit by index in world Units vector
 void MiniECS::World::removeUnitByIndex(int index)
 {
     worldUnits.erase(std::remove(worldUnits.begin(), worldUnits.end(), worldUnits.at(index)), worldUnits.end());
 }
 
+// Return Unit by index in world Units vector
 std::unique_ptr<MiniECS::Unit>& MiniECS::World::getUnitByIndex(int index)
 {
     return worldUnits.at(index);
 }
 
+// Return Unit by name
 std::unique_ptr<MiniECS::Unit>& MiniECS::World::getUnitByName(std::string name)
 {
     for (std::unique_ptr<Unit>& unit : worldUnits)
@@ -67,13 +68,13 @@ std::unique_ptr<MiniECS::Unit>& MiniECS::World::getUnitByName(std::string name)
     }
 }
 
-
+// Return world Units vector
 const std::vector<std::unique_ptr<MiniECS::Unit>>& MiniECS::World::getUnitsVector() const
 {
     return worldUnits;
 }
 
-
+// Start game loop/lifetime at simulated 60 fps
 void MiniECS::World::play() const
 {
     if (!worldUnits.empty())

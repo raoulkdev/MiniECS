@@ -1,6 +1,3 @@
-//
-// Created by Raoul Kaleba on 4/15/2025.
-//
 #ifndef UNIT_H
 #define UNIT_H
 
@@ -29,6 +26,7 @@ namespace MiniECS
         void addModule(ModuleType moduleType);
         void removeModule(ModuleType moduleType);
 
+        // Get a module by type class
         template<typename T>
         T* getModule()
         {
@@ -53,6 +51,5 @@ namespace MiniECS
         void callModuleStart() const;
     };
 }
-
 
 #endif //UNIT_H

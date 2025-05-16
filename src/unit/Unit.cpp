@@ -1,7 +1,3 @@
-//
-// Created by Raoul Kaleba on 4/15/2025.
-//
-
 // Imports
 #include "Unit.h"
 #include "../modules/module_base/Module.h"
@@ -50,6 +46,7 @@ void MiniECS::Unit::addModule(ModuleType moduleType)
     }
 }
 
+// Remove Module
 void MiniECS::Unit::removeModule(ModuleType moduleType)
 {
     bool moduleFound = false;
@@ -71,17 +68,19 @@ void MiniECS::Unit::removeModule(ModuleType moduleType)
     }
 }
 
+// Return Unit name
 std::string MiniECS::Unit::getName() const
 {
     return name;
 }
 
+// Return the Modules vector
 std::vector<std::unique_ptr<MiniECS::Module>>& MiniECS::Unit::getModulesVector()
 {
     return modules;
 }
 
-// Call all Module start functions
+// Start game loop/lifetime
 void MiniECS::Unit::callModuleStart() const
 {
     for (const std::unique_ptr<Module> &sModule : modules)

@@ -1,6 +1,4 @@
-//
-// Created by Raoul Kaleba on 4/16/2025.
-//
+// Imports
 #include "TransformModule.h"
 #include <iostream>
 

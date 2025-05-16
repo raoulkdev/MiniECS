@@ -1,6 +1,3 @@
-//
-// Created by Raoul Kaleba on 4/15/2025.
-//
 #ifndef MODULE_H
 #define MODULE_H
 
@@ -9,6 +6,7 @@
 
 namespace MiniECS
 {
+    // Module types enum
     enum class ModuleType
     {
         ModuleBase = 0,
@@ -30,7 +28,9 @@ namespace MiniECS
         virtual void start();
 
     private:
+        // Module type
         ModuleType type;
+        // String name of module type
         std::string moduleTypeName;
     };
 
