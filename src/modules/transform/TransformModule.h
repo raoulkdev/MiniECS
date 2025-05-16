@@ -10,23 +10,13 @@
 namespace MiniECS
 {
     class TransformModule : public Module{
-    private:
+    public:
+        using Module::Module;
+
         // Transform values
         glm::vec2 position;
         glm::vec2 rotation;
         glm::vec2 scale;
-    public:
-        using Module::Module;
-
-        // Setter functions
-        void setPosition(glm::vec2 newPosition);
-        void setRotation(glm::vec2 newRotation);
-        void setScale(glm::vec2 newScale);
-
-        // Getter functions
-        glm::vec2 getPosition();
-        glm::vec2 getRotation();
-        glm::vec2 getScale();
 
         // Transform start
         void start() override;

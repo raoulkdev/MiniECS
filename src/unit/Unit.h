@@ -30,7 +30,7 @@ namespace MiniECS
         void removeModule(ModuleType moduleType);
 
         template<typename T>
-        T* getModuleAs()
+        T* getModule()
         {
             for (auto& module : modules)
             {

@@ -955,6 +955,8 @@ CMakeFiles/MiniECS.dir/src/main.cpp.o: /Users/raoulkaleba/Documents/CLionProject
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
   /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/module_base/Module.h \
+  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/renderer/RendererModule.h \
+  /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/module_base/Module.h \
   /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/transform/TransformModule.h \
   /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/module_base/Module.h \
   /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/Unit.h \
@@ -6218,8 +6220,6 @@ CMakeFiles/MiniECS.dir/src/world/World.cpp.o: /Users/raoulkaleba/Documents/CLion
 
 /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/Unit.cpp:
 
-/Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/renderer/RendererModule.h:
-
 /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/renderer/RendererModule.cpp:
 
 /opt/homebrew/include/glm/packing.hpp:
@@ -6355,6 +6355,8 @@ CMakeFiles/MiniECS.dir/src/world/World.cpp.o: /Users/raoulkaleba/Documents/CLion
 /opt/homebrew/include/glm/ext/matrix_float3x3_precision.hpp:
 
 /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/unit/Unit.h:
+
+/Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/renderer/RendererModule.h:
 
 /Users/raoulkaleba/Documents/CLionProjects/MiniECS/src/modules/module_base/Module.h:
 
