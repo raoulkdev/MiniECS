@@ -27,5 +27,7 @@ int main()
 
     // Set transform position
     scene.getUnitByName("u1")->getModule<MiniECS::TransformModule>()->position = {22.5f, 33.4f};
+
+    // Play the scene
     scene.play();
 }
